@@ -1,4 +1,4 @@
-# brka
+# brkga
 Resource-constrained parallel machine scheduling with setups, job release/due time, and resource transition limit
 
 Commercial use, redistribution, or adaptation of any part of this repository requires explicit permission from the author. Please contact me for licensing terms or collaboration.
