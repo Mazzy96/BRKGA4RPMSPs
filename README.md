@@ -19,6 +19,6 @@ To run GRASP on a UPMSR-PS instance:
 
     python grka.py UPMSR_PS_grasp Instances\UPMSR-PS\100x4_U_50_100_S_100_PU_SU_rep_1.txt --solver random --max_cpu 6.0 --threads 1
 
-Warm-start Option for the UPMSR-PS and IMPR-P benchmarks:
+Warm-start option for the UPMSR-PS and IMPR-P benchmarks:
 
     To enable the warm-start feature, activate the corresponding warm-population function in brkga.py.
