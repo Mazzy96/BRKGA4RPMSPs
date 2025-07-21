@@ -10,12 +10,15 @@ Data instances of UPMSR-PS and IMPR-P benchmarks are available at the following 
 
 
 Below are example commands to run the main problem (PMSP), UPMSR-PS, and IPMR-P benchmarks using the BRKGA solver.
+
     1- python grka.py PMSP Instances\PMSP\J180_M4_P3_W3_TW0.5_ME0.8_AP0.txt --solver brkga --threads 1 --max_cpu 360   
     2- python grka.py UPMSR_PS Instances\UPMSR-PS\100x4_U_50_100_S_100_PU_SU_rep_1.txt --solver brkga --max_cpu 300.0 --threads 1  
     3- python grka.py IPMR_P Instances\IPMR-P\TEST0-100-4-4-A.txt --solver brkga --threads 1  --max_cpu 200 
 
 To run GRASP on a UPMSR-PS instance:
+
     python grka.py UPMSR_PS_grasp Instances\UPMSR-PS\100x4_U_50_100_S_100_PU_SU_rep_1.txt --solver random --max_cpu 6.0 --threads 1
 
 Warm-start Option for the UPMSR-PS and IMPR-P benchmarks:
+
     To enable the warm-start feature, activate the corresponding warm-population function in brkga.py.
