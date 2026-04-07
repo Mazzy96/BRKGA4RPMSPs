@@ -23,4 +23,4 @@ Warm-start option for the UPMSR-PS and IMPR-P benchmarks:
 
     To enable the warm-start feature, activate the corresponding warm-population function in brkga.py.
 
-To request the data used in the PMSP problem, please contact the author.
+To request the data used in the PMSP problem for benchmarking the BRKGA and MILP approaches, please contact the author at khadivi.maziyar@gmail.com. Alternatively, the instance generator may be used to generate instances for both methods.
